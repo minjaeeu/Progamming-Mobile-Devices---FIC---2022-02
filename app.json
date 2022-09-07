@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Minjae's App",
+    "slug": "minjae_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#AEDEDE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#AEDE55"
+      },
+      "package": "com.minjae.app"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    }
+  }
+}
